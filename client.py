@@ -3,8 +3,8 @@ import socket
 import subprocess
 
 s = socket.socket()
-host = '192.168.1.11'
-port = 9999
+host = '127.0.0.1' #IP Address of host, whom you want to connect
+port = 9999 #Port to which you want to commit
 s.connect((host,port))
 
 while True:
